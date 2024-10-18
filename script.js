@@ -84,7 +84,7 @@ function validatePassword(password, confirmPassword){
     isValid = false
   }
   else if(password !== confirmPassword){
-    showMessage("Password didn't match", 'red', passwordMsgElm)
+    showMessage("Password didn't match", 'red', passwordMsgElm);
     isValid = false
   }
   else{
